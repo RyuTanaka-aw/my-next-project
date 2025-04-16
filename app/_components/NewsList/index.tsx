@@ -29,7 +29,7 @@ export default function NewsList({ news }: Props) {
             ) : (
               <Image
                 className={styles.image}
-                src="/img-placeholder.jpg"
+                src="/no-image.png"
                 alt=""
                 width={1200}
                 height={630}
